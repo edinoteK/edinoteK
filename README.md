@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @edinoteкоды... I from Russian Federation 
+з- 👋 Hi, I’m @edinoteкоды... I from Russian Federation 
 - 👀 I’m interested in ...
 - 🌱 I’m currently learning ... 
 - 💞️ I’m looking to collaborate on ...
@@ -30,3 +30,9 @@ const authentication = await auth();
 //   token: 'UQC4geiKP8WPl69OXKnkt0dNz7M0M76D6t1RqR5CDT8f-c36',
 //   tokenType: 'oauth'
 // }
+
+
+// import the entire object
+import json from './example.json'
+// import a root field as named exports - helps with tree-shaking!
+import { field } from './example.json'
